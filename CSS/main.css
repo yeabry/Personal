@@ -10,16 +10,31 @@ img {
   margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
 
+li {
+  list-style-type: none;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+
+}
 .icon {
   height: 25px;
   width: 50px;
+  float: left;
 }
 
 .linkedin {
   width: 35px;
+  float: left;
 }
 
 .code {
   height: 35px;
   width: 50px;
+  float: left;
 }
+
+li h5 {
+  text-align: justify;
+}
+
+
